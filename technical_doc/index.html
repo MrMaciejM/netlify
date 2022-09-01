@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/technical_doc/style.css" />
+    <body>
+      <div class="container">
+        <nav id="navbar">
+          <a class="home" href="/index.html">Home</a>
+          <header class="navHeader">Web Dev and Tech</header>
+          <br /><br />
+          <a href="#topic1" class="nav-link">Topic1</a><br /><br />
+          <a href="#topic2" class="nav-link">Topic2</a><br /><br />
+          <a href="#topic3" class="nav-link">Topic3</a><br /><br />
+          <a href="#topic4" class="nav-link">Topic4</a><br /><br />
+          <a href="#topic5" class="nav-link">Topic5</a><br /><br />
+        </nav>
+
+        <main id="main-doc">
+          <!-- SECTION ONE -->
+          <section class="main-section" id="topic1">
+            <header>Topic1</header>
+            <p>
+              JavaScript -
+              <code id="codeP">console.log("Hello, World")</code
+              >.<br /><br />The console log is one of the most important and
+              early tools a student will learn in JavaScript.
+            </p>
+            <p>
+              HTML, CSS and JS work together to make websites responsive and
+              interactive.
+            </p>
+            <li>
+              <ul>
+                Some item 1
+              </ul>
+              <ul>
+                Some item 2
+              </ul>
+              <ul>
+                Some item 3
+              </ul>
+            </li>
+          </section>
+          <div id="divider"></div>
+          <br />
+
+          <!-- SECTION TWO -->
+          <section class="main-section" id="topic2">
+            <header>Topic2</header>
+            <p>
+              Web Devs have various tools at their disposal to inspect and debug
+              with debugging console. You can open dev tools in your browser by
+              right-clicking and selecting "Inspect" or "Inspect Element". At
+              the moment, I am unsure if there is a specific
+              <code id="codeP">let i = "some command to bring up console"</code>
+              code to bring up the tools.
+            </p>
+            <p>
+              You can also use inspect to debug CSS, as well as view CSS Box
+              Model, margins, borders and padding properties of an element.
+            </p>
+
+            <li>
+              <ul>
+                Some item 1
+              </ul>
+              <ul>
+                Some item 2
+              </ul>
+              <ul>
+                Some item 3
+              </ul>
+            </li>
+          </section>
+          <div id="divider"></div>
+          <br />
+
+          <!-- SECTION THREE -->
+          <section class="main-section" id="topic3">
+            <header>Topic3</header>
+            <p>
+              Just a few more code elements to pass the project verification
+              <code id="codeP"
+                >for(i=0; i < 5; i++) {// for loop and then some action here in
+                JS language}</code
+              >, nothing more.
+            </p>
+            <p>second p tag here</p>
+          </section>
+
+          <!-- SECTION FOUR -->
+          <section class="main-section" id="topic4">
+            <header>Topic4</header>
+            <p>
+              Some extra code here as well <code id="codeP">Extra code</code>
+            </p>
+            <p>Some extra text in the paragraph, followed by &lt;li&gt;.</p>
+
+            <li>
+              <ul>
+                Some item 1
+              </ul>
+              <ul>
+                Some item 2
+              </ul>
+              <ul>
+                Some item 3
+              </ul>
+            </li>
+            <div id="divider"></div>
+            <li>
+              <ul>
+                Some item 1
+              </ul>
+              <ul>
+                Some item 2
+              </ul>
+              <ul>
+                Some item 3
+              </ul>
+            </li>
+            <div id="divider"></div>
+            <li>
+              <ul>
+                Some item 1
+              </ul>
+              <ul>
+                Some item 2
+              </ul>
+              <ul>
+                Some item 3
+              </ul>
+            </li>
+          </section>
+
+          <!-- SECTION FIVE -->
+          <section class="main-section" id="topic5">
+            <header>Topic5</header>
+            <p>
+              Section 5 and some extra code ++
+              <code id="codeP">Code code code code</code> and the end of the
+              &lt;p&gt; element.
+            </p>
+            <p>Another p tag here.</p>
+          </section>
+        </main>
+      </div>
+    </body>
+  </head>
+</html>
+
+<!--
+DONE - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
+
+DONE - User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
+
+DONE - User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
+
+DONE - User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
+
+DONE - User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
+
+DONE - User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
+
+DONE - User Story #7: The .main-section elements should contain at least 5 li items total (not each).
+
+DONE - User Story #8: I can see a nav element with a corresponding id="navbar".
+
+DONE - User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
+
+DONE - User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
+
+DONE - User Story #11: The header element in the navbar must come before any link (a) elements in the navbar.
+
+DONE - User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
+
+DONE - User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
+
+DONE - User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
+
+DONE - User Story #15: My Technical Documentation page should use at least one media query.
+-->

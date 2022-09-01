@@ -1,0 +1,76 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 1800px;
+}
+header {
+  text-align: right;
+}
+.home {
+  color: white;
+  padding: 1px 5px 4px 5px;
+  border-radius: 7px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  float: left;
+  /* border: solid 2px black; */
+  margin-top: 10px;
+  text-align: left;
+  font-weight: 600;
+  background-color: black;
+  text-decoration: none;
+}
+.home:hover {
+  color: gold;
+  cursor: pointer;
+}
+.sci {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+
+.date {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-style: normal;
+}
+
+.eileen {
+  text-align: left;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+main {
+  font-weight: 400;
+  /*font-family: Segoe UI; */
+}
+.sender-column {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+  font-size: 1.1em;
+}
+
+.danceTypes {
+  margin-left: 50px;
+}
+
+/*p, li, dd, dt, address {
+  line-height: 1.5;
+}*/

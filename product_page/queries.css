@@ -1,0 +1,410 @@
+/* MEDIA QUERIES */
+
+/* 1684px / 16 = 105.25  
+16px = 1rem by default
+rem was set to 10px, but does not apply to queries
+62.5% = 10px = 1rem; 
+*/
+
+/*************************/
+/* 1579px / 16 = 98.69  */
+/*************************/
+@media (max-width: 98.69rem) {
+  li {
+    text-align: center;
+  }
+
+  /* Contact form Fix */
+  .address {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .phone {
+    margin-bottom: 2rem;
+  }
+  .contact-content-2 {
+    margin: 0 2rem;
+  }
+
+  /*************************/
+  /* 1456px Desktop/Laptop */
+  /*************************/
+  /* 1456px / 16 = 91rem */
+  @media (max-width: 91rem) {
+    .main-nav-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .main-nav {
+      margin-top: 3rem;
+      padding-bottom: 1rem;
+      justify-self: center;
+    }
+
+    /* Intro Fix */
+    .intro-text {
+      justify-items: center;
+      align-self: center;
+      text-align: center;
+      margin: 0 22%;
+      font-size: 2rem;
+      cursor: default;
+    }
+
+    /* Products Fix */
+    .glasses-img-1,
+    .glasses-img-2 {
+      border-radius: 11px;
+      max-width: 60%;
+      max-height: 40%;
+      margin-top: 4rem;
+    }
+
+    /* Reviews Fix */
+    .customer-img {
+      max-width: 20%;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+    }
+    .customer-img-2 {
+      /* width: 21.98%; */
+      max-width: 30%;
+      margin-bottom: 3.6rem;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+    }
+
+    /* Fix Contact Form */
+    .address {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .phone {
+      margin-bottom: 2rem;
+    }
+    .contact-content-2 {
+      margin: 0 2rem;
+    }
+
+    /*************************/
+    /* 1200px Desktop/Laptop + tablet */
+    /*************************/
+    @media (max-width: 75rem) {
+      /* Intro Fix */
+      .intro-img {
+        border-radius: 11px;
+        max-width: 25%;
+        box-shadow: 0 0 35px 2px #fff;
+      }
+      .intro-text {
+        justify-items: center;
+        align-self: center;
+        text-align: center;
+        margin: 0 16%;
+        font-size: 2rem;
+        cursor: default;
+      }
+
+      /* Products Fix */
+      .glasses-container {
+        display: flex;
+        column-gap: 10rem;
+        margin: 0 6%;
+        max-height: 88%;
+      }
+      .glasses-img-1,
+      .glasses-img-2 {
+        border-radius: 11px;
+        max-width: 40%;
+        max-height: 30%;
+        margin-top: 4rem;
+      }
+      .glasses-text {
+        font-size: 1.8rem;
+        margin: 2rem 8rem;
+        line-height: 2.2rem;
+      }
+
+      /* Reviews Fix */
+      .customer-img {
+        max-width: 15%;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+      }
+      .customer-img-2 {
+        /* width: 21.98%; */
+        max-width: 20%;
+        height: 23.5%;
+        margin-bottom: 4.1rem;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+      }
+      .customer-text {
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 0% 3%;
+        justify-content: center;
+      }
+
+      /* About Us */
+      .paper-img {
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        z-index: -1;
+        border-radius: 22px;
+      }
+      .aboutus-text {
+        display: flex;
+        flex-direction: column;
+        margin: 1% 30%;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+    }
+
+    /*************************/
+    /* 1000px Laptop + tablet */
+    /*************************/
+    @media (max-width: 62.5rem) {
+      .thumb-all {
+        max-width: 20%;
+        max-height: 80%;
+        margin: 0 auto;
+      }
+      .thumb-main-img {
+        max-width: 80%;
+      }
+    }
+
+    /*************************/
+    /* 900px Laptop + tablet */
+    /*************************/
+    @media (max-width: 56.25rem) {
+      /* Products Fix */
+      .glasses-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 6rem;
+        margin: 0 20%;
+      }
+      .product-container-1,
+      .product-container-2 {
+        justify-self: center;
+        align-items: start;
+        border: solid 1px black;
+        border-radius: 12px;
+        background-color: var(--lbrown);
+        text-align: center;
+        max-height: 50%;
+        /* margin-bottom: 5%; */
+      }
+    }
+
+    /*************************/
+    /* 700px tablets/phones */
+    /*************************/
+    @media (max-width: 56.25rem) {
+      /* Reviews Fix */
+      .feedback-cards-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        row-gap: 3rem;
+        margin: 0 5%;
+      }
+      .client-container {
+        background-color: #eee;
+        justify-items: center;
+        align-items: center;
+        border-radius: 11px;
+        padding-bottom: 2rem;
+      }
+      .customer-img {
+        width: 85%;
+        height: 48%;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .customer-img-2 {
+        /* width: 21.98%; */
+        width: 15%;
+        height: 50%;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.24);
+      }
+      .customer-text {
+        font-size: 1.8rem;
+        margin: 0% 3%;
+        justify-content: center;
+      }
+
+      /* Products Fix */
+      .glasses-container {
+        display: flex;
+        column-gap: 20rem;
+        margin: 0 10%;
+      }
+      .glasses-img-1,
+      .glasses-img-2 {
+        border-radius: 11px;
+        max-width: 40%;
+        max-height: 40%;
+        margin-top: 4rem;
+      }
+      .glasses-text {
+        font-size: 1.8rem;
+        margin: 2rem 4rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    /*************************/
+    /* 600px tablets/phones */
+    /*************************/
+    @media (max-width: 56.25rem) {
+      .home-container {
+        padding-top: 2rem;
+      }
+      .heading {
+        font-size: 3rem;
+      }
+
+      .intro-img {
+        border-radius: 11px;
+        max-width: 40%;
+        box-shadow: 0 0 35px 2px #fff;
+      }
+      .intro-text {
+        justify-items: center;
+        align-self: center;
+        text-align: center;
+        margin: 0 5%;
+        font-size: 1.6rem;
+        cursor: default;
+      }
+
+      /* Gallery Fix */
+      .thumbnails-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        /* margin-bottom: 1.6rem; */
+      }
+      .thumb-all {
+        max-width: 90%;
+        max-height: 90%;
+      }
+      .thumb-main-img {
+        max-width: 70%;
+        max-height: 80%;
+      }
+
+      /* About Us */
+      .paper-img {
+        position: absolute;
+        height: 100%;
+        width: 70%;
+        z-index: -1;
+        border-radius: 22px;
+      }
+      .aboutus-text {
+        display: flex;
+        flex-direction: column;
+        margin: 1% 20%;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+      }
+
+      /* Contact Fix */
+      .contact-form-container {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .contact-form-divider {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-bottom: 4rem;
+      }
+      .fax {
+        margin-bottom: 2rem;
+      }
+    }
+
+    /*************************/
+    /* 500px tablets/phones */
+    /*************************/
+    @media (max-width: 31.25rem) {
+      .home-container {
+        margin-bottom: 3rem;
+      }
+      .main-nav-img {
+        margin-bottom: 3rem;
+      }
+      .main-nav-ul {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+      }
+
+      /* Intro Fix */
+      .intro-text {
+        justify-items: center;
+        align-self: center;
+        text-align: center;
+        margin: 0 8%;
+        font-size: 1.6rem;
+        cursor: default;
+      }
+
+      /* Products Fix */
+      .glasses-container {
+        display: flex;
+        column-gap: 20rem;
+        margin: 0 10%;
+        max-height: 80%;
+      }
+      .glasses-img-1,
+      .glasses-img-2 {
+        border-radius: 11px;
+        max-width: 40%;
+        max-height: 30%;
+        margin-top: 4rem;
+      }
+      .glasses-text-heading {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 2.8rem;
+        margin-top: 1rem;
+      }
+      .glasses-text {
+        font-size: 1.6rem;
+        margin: 2rem 4rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    /*************************/
+    /* 400px tablets/phones */
+    /*************************/
+    @media (max-width: 25rem) {
+      .home-container {
+        margin-bottom: 4rem;
+      }
+      .address,
+      .phone,
+      .fax,
+      label,
+      .copyright {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
